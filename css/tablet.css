@@ -1,0 +1,251 @@
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 112px 0;
+  }
+
+  .section-hero {
+    background: linear-gradient(rgba(46, 47, 66, .70),
+        rgba(46, 47, 66, .70)),
+      url('../images/tablet/hero-bg.jpg');
+  }
+
+  .container {
+    /* padding: 0px 136px; */
+    min-width: 100%;
+    margin: 0 auto;
+  }
+.container-header {
+  display: flex;
+  padding-top: 16px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  align-items: center;
+}
+  .navigation-menu,
+  .address-menu-list {
+    display: inline-flex;
+  }
+
+  .navigation-list {
+    display: inline-block;
+  }
+
+  .navigation-list:not(:last-child) {
+    margin-right: 40px;
+  }
+
+  .navigation-list .active {
+    color: var(--ocean, #404bbf);
+  }
+
+  .navigation-list .active::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    opacity: 1;
+  }
+
+  .navigation-list a {
+    text-decoration: none;
+    color: var(--navyblue, #2e2f42);
+    font-weight: 500;
+    position: relative;
+    transition: ease-out 250ms;
+  }
+
+  .navigation-list a::after {
+    content: "";
+    width: 0px;
+    height: 4px;
+    background-color: var(--ocean);
+    position: absolute;
+    left: 0;
+    bottom: -28px;
+    opacity: 0;
+    transition: ease-out 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: none;
+    border-radius: 2px;
+  }
+
+  .navigation-list a:hover,
+  .navigation-list a:focus {
+    color: var(--ocean, #404bbf);
+
+  }
+
+  .navigation-list a:hover::after,
+  .navigation-list a:focus::after {
+    opacity: 1;
+    width: 100%;
+    background-color: var(--ocean);
+  }
+
+  .address-section {
+    margin-left: 121px;
+  }
+
+  .address-section a {
+    color: var(--slate, #434455);
+    font-style: normal;
+    line-height: 1.5rem;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+    margin-right: 40px;
+    position: relative;
+    transition: ease-out 250ms;
+  }
+
+  .address-section a::after {
+    content: "";
+    width: 0px;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: -28px;
+    opacity: 0;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: none;
+    border-radius: 2px;
+  }
+
+  .address-section a:hover,
+  .address-section a:focus {
+    color: var(--ocean, #404bbf);
+  }
+
+  .address-section a:hover::after,
+  .address-section a:focus::after {
+    opacity: 1;
+    width: 100%;
+  }
+/* .address-menu {
+      display: flex;
+        margin-left: auto;
+        flex-direction: column;
+} */
+  .mobile-nav-button {
+    display: none;
+    /* border: 0; */
+    /* background-color: transparent; */
+  }
+
+  .mobile-nav,
+  .mobile-nav-menu,
+  .mobile-nav-info,
+  .mobile-nav-close {
+    display: none;
+  }
+
+
+
+  .hero-title {
+    margin-bottom: 36px;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 3.75rem;
+    letter-spacing: 1.12px;
+    text-transform: capitalize;
+  }
+
+  .feature-menu {
+    /* display: inline-flex; */
+    row-gap: 72px;
+    flex-wrap: wrap;
+    column-gap: 24px;
+  }
+
+  .feature-list {
+    width: calc((100% - 24px) /2);
+    margin-bottom: 0;
+  }
+
+  .section-team {
+    padding: 96px 108px;
+  }
+
+  .team-menu {
+    row-gap: 64px;
+    column-gap: 24px;
+  }
+
+  .team-list {
+    margin-bottom: 0;
+  }
+
+  .team-list {
+    flex-basis: calc((100% - 24px) / 2)
+  }
+
+  .team-list img {
+    width: 100%;
+  }
+
+  .social-media-icon {
+    padding: 12px;
+  }
+
+  .customer-menu {
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+
+  .customer-list {
+    flex-basis: calc((100% - 16px) / 4);
+  }
+
+  .footer {
+    padding: 96px 108px;
+  }
+
+  .container-footer p {
+    color: var(--cloud);
+    text-decoration: none;
+    /* text-align: center; */
+    /* width: 268px; */
+    margin: 0;
+    text-align: left;
+  }
+
+  .container-footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer-box1 {
+    text-align: left;
+    flex-basis: calc((100% - 24px) /2);
+  }
+
+  .footer-box1 p {
+    margin-top: 17.5px;
+    /* margin-bottom: 72px; */
+  }
+
+  .footer-box2 {
+    width: auto;
+    margin-left: 24px;
+  }
+
+  .footer-icon-list p {
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+
+  .footer-form-email {
+    display: inline;
+  }
+
+  .footer-form-email input {
+    /* flex-basis: calc((100% - 24px) /2); */
+    display: inline-flex;
+    margin-right: 24px;
+    width: 264px;
+  }
+
+  .footer-form-subscribe {
+    text-align: left;
+  }
+
+}
