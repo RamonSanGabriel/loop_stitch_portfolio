@@ -217,6 +217,7 @@ p {
 .mobile-nav-menu-list:last-child {
   margin-bottom: 284px;
 }
+
 .mobile-nav-menu-list a {
   color: var(--navyblue);
 }
@@ -225,6 +226,7 @@ p {
 .mobile-nav-menu-list a:focus {
   color: var(--ocean);
 }
+
 .mobile-nav-info {
   list-style: none;
 }
@@ -269,7 +271,7 @@ p {
 .section-hero {
   background: linear-gradient(rgba(46, 47, 66, .70),
       rgba(46, 47, 66, .70)),
-    url('../images/mobile/hero-bg.jpg');
+    url('../images/mobile/1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -364,12 +366,12 @@ p {
 
 /* Index: Section 2 (What we are doing) */
 .services {
-  display: none;
+  display: flex;
   padding-bottom: 120px;
 }
 
 .services-title {
-  display: none;
+  display: block;
   font-size: 36px;
   font-weight: 700;
   line-height: 2.5em;
@@ -385,7 +387,7 @@ p {
 }
 
 .services-list img {
-  display: none;
+  display: block;
   border: 1px solid var(--CORNFLOWER, #E7E9FC);
   width: 360px;
 }
@@ -474,7 +476,7 @@ p {
 
 .social-mobile-icon {
   padding: 8px;
-  width:40px;
+  width: 40px;
   height: 40px;
 }
 
@@ -484,6 +486,7 @@ p {
 
 /* Index: Section Customers */
 .customer-title {
+  display: block;
   font-size: 36px;
   font-weight: 700;
   line-height: 2.5em;
@@ -967,9 +970,11 @@ p {
   width: 100%;
   margin-right: 8px;
 }
+
 .user-contact-checkbox input {
   cursor: pointer;
 }
+
 .user-contact-agree {
   display: inline;
   font-size: 12px;

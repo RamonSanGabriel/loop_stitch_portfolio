@@ -12,7 +12,7 @@
   .section-hero {
     background: linear-gradient(rgba(46, 47, 66, .70),
         rgba(46, 47, 66, .70)),
-      url('../images/people-office.jpg');
+      url('../images/desktop/1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -49,9 +49,10 @@
     margin-right: 40px;
   }
 
-.address-section {
-  margin-left: auto;
-}
+  .address-section {
+    margin-left: auto;
+  }
+
   /* .mobile-menu {
     display: none;
   }
@@ -64,7 +65,7 @@
   .section-hero {
     background: linear-gradient(rgba(46, 47, 66, .70),
         rgba(46, 47, 66, .70)),
-      url('../images/people-office.jpg');
+      url('../images/desktop/1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 188px 0;
